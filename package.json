@@ -1,7 +1,7 @@
 {
   "name": "close.io",
   "preferGlobal": "false",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "John Wehr <johnwehr@gmail.com>",
   "description": "",
   "contributors": [ 
@@ -13,12 +13,12 @@
   "main": "./lib/close.io.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wehriam/Close.io.git"
+    "url": "git@github.com:elasticsales/closeio-node.git"
   },
   "keywords": [],
   "dependencies" : {
-    "node-promise": "*",
-    "request": "2.21.0"
+    "node-promise": "0.5.8",
+    "request": "2.27.0"
   },
   "noAnalyze": true,
   "license": "MIT",
@@ -26,6 +26,7 @@
     "node": ">=0.6"
   },
   "scripts": {
+    "preinstall": "sudo npm i -g mocha",
     "test": "mocha"
   }
 }

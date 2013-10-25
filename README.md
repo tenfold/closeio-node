@@ -9,7 +9,10 @@ A Close.io API wrapper for Node.js. See the API documentation at http://develope
 
 **Usage**
 
-The module uses [kriszyp/node-promise](https://github.com/kriszyp/node-promise) promises.
+```
+npm install
+mocha test
+```
 
 Get an API key from your settings page: https://app.close.io/settings/
 
